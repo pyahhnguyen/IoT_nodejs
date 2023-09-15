@@ -1,5 +1,5 @@
 const dotenv = require('dotenv').config({
-    path:'.env'
+    path:'.example.env'
 });
 module.exports = {
     SECRET_KEY:process.env.SECRET_KEY,

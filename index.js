@@ -18,6 +18,8 @@ const corsOptions = {
 app.use(cors({
     origin:'*'
 }));
+
+
 app.use(Express.json());
 app.use(cookie());
 app.use(RouterPeliculas, RouterRelaciones); 
